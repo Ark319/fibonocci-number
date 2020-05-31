@@ -1,0 +1,11 @@
+# fibonocci numbers till 'n' terms
+a= 0
+b= 1
+n =  int(input("enter an nth term"))
+print(a,'\n',b)
+for k in range(n-2):
+    result = a + b
+    print(result)
+    a=b
+    b=result
+    
